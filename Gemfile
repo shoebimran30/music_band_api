@@ -6,6 +6,7 @@ ruby '3.0.0'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.5'
+gem 'rack-cors'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
@@ -47,4 +48,4 @@ group :development do
   # gem "spring"
 end
 gem 'httparty'
-gem 'rack-cors', '~> 1.1', '>= 1.1.1'
+
